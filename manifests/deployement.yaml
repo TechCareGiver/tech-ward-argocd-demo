@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argo-demo
-  namespace: argo-demo
+  namespace: argocd-demo
   labels:
     app: argo-demo
 spec:
